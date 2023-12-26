@@ -7,8 +7,8 @@ Visual components and Python
 
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
+![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/cf74de1b-c092-48bb-83e6-6fc8c7d8f46c)
 
-![image](https://user-images.githubusercontent.com/103921593/203238035-1c8109bc-cbf2-4c77-baea-c5b682a752ef.png)
 
 ## Procedure :
 
@@ -18,13 +18,15 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 
 ## Experiment:
+![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/123c618c-d631-45ec-84d8-70451484d304)
+![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/465b11a7-4edf-4c66-8e94-cb702cab4906)
 
 
 ## Program
 Developed By :RITHISH V
 
 Register.No :212223240140
-
+```
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -56,12 +58,12 @@ if (rho<1):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("--------------------------------------------------------------")
+```
 
 
 ## Output :
-![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/075396cf-4f88-4cf8-bac7-98921921f1e0)
+![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/1f98028d-a880-4712-a822-e1d331b48dc7)
 
-![image](https://github.com/Rithishv/Muttiple-capacity-with-infinite-capacity/assets/153974959/aab7914d-ba51-41e7-9aa8-3dfbcde66b13)
 
 ## Result : 
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
